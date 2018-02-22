@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "rightclick.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon-small.png"
+   },
+   "description": "添加高德地图查询公交右键 查询公交主要用来做地址查询",
+   "icons": {
+      "128": "icon-large.png",
+      "16": "icon-bitty.png",
+      "48": "icon-small.png"
+   },
+//    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj7lf6t+/cGnMW0IRiCf2V+MeNfF593d2HJnkQgX4d2CaA+ix+Ogyw8uWCLsYdV+MCSyP2ALxnYVBCytR7TQ5owwXEmgX5Gxv74Nh0G+nwANz6drcxZZtxz81kMDahec4pdbuRlT82tMMgkPIQivMC7oYfmRrEffTPIDjZ082jvXHQugRhAPV8Z2GpLmsN1zWnV0YuNIILP82KPAT8MOZZ4voEAp21oVP9q/5W2ITx33JV/soYealgEMyWeLUwX5esdz+r6mAI9uzlJBUBk/ikAi07+mMyr+HBtftBmPxXxIAUU9212h8+lVmMQKnr1x3OsgBeM/8iEO1KRVknY3S9QIDAQAB",
+   "manifest_version": 2,
+   "name": "右键复制地址查询公交",
+   "permissions": [ "contextMenus" ],
+   "short_name": "Highlight, RightClick, Search AMAP,公交查询",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.42"
+}
